@@ -1,0 +1,11 @@
+@WeatherApi_HostAddress = http://localhost:5000
+
+### Get Weather Forecasts
+GET {{WeatherApi_HostAddress}}/weatherforecast
+Accept: application/json
+
+### Get Essay
+@para = 10
+@waitTime = 0
+GET {{WeatherApi_HostAddress}}/essay?para={{para}}&maxWaitTime={{waitTime}}
+Accept: application/json

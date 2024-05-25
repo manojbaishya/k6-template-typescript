@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://localhost",
+    "port": ":5000",
+    "weatherService": {
+        "getWeather": "weatherforecast",
+        "getEssay": "essay"
+    },
+    "testData": {
+        "paragraphs": 10,
+        "waitTime": 2
+    }
+}
